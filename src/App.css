@@ -36,3 +36,99 @@
     transform: rotate(360deg);
   }
 }
+
+.cc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.key_cc{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  flex-wrap: wrap;
+  
+}
+.key_btn{
+  background-color: black;
+  /* width: 120px; */
+  /* height: 30px; */
+  padding: 10px;
+  margin: 10px;
+  border: transparent;
+  color: white;
+  font-size: 20px;
+  /* padding: 10px; */
+  font-weight: bolder;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+
+/* App.css */
+
+.flex-container {
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Adjust as needed */
+}
+
+.flex-item {
+  flex: 1;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.cc_hh {
+  margin-bottom: 5px;
+}
+
+.cc_audio{
+  width: 250px;
+}
+
+.bhgF{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ff9933;
+  width: 100vw;
+  height: 100vh;
+}
+.bhg{
+  height: 250px;
+  
+    /* margin-bottom: -10px; */
+z-index: 10;
+}
+.btn_bhg{
+  background-color: black;
+  padding: 15px;
+  cursor: pointer;
+  color: white;
+  font-weight: bolder;
+  border-radius: 5px;
+    margin-bottom: 30vh;
+  /* margin-top: 30px; */
+z-index: 10;
+}
+.cir{
+  /* border: 1px solid black; */
+  position: absolute;
+  bottom: 0;
+}
+.om{
+  height: 100px;
+  
+}
+.omP{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
