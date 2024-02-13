@@ -32,7 +32,7 @@ console.log(chapters);
     </div>:  
     <>
 
-    <div style={{backgroundColor:"#ff9933", width:"100%",height:"10vh",textAlign:"center",padding:"10px"}} className="cc">Shri Mad Bhagwat Geeta</div>
+    <div style={{backgroundColor:"#ff9933", width:"100%",height:"10vh",textAlign:"center",padding:"10px"}} className="cc">MAA MUDITA</div>
       {chapters ? <ChapterCarousel chapters={chapters} /> : <div className='omP'>
         <img src={om} className="om"/>
         </div>}
